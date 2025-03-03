@@ -1,0 +1,18 @@
+{
+    "extends": "../../../tsconfig-base.json",
+    "compilerOptions": {
+        "outDir": "build",
+        "rootDir": ".",
+        "baseUrl": ".",
+        "composite": true
+    },
+    "include": ["api.d.ts"],
+    "references": [
+        {
+            "path": "../../../../platform/front-end/xtrem-client"
+        },
+        {
+            "path": "../../../platform/xtrem-x3-system-utils/api"
+        }
+    ]
+}

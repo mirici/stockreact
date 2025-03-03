@@ -1,0 +1,20 @@
+{
+    "name": "@sage/x3-stock-api",
+    "description": "Client API for @sage/x3-stock",
+    "version": "48.0.41",
+    "author": "sage",
+    "license": "UNLICENSED",
+    "typings": "api.d.ts",
+    "dependencies": {
+        "@sage/x3-finance-data-api": "workspace:*",
+        "@sage/x3-master-data-api": "workspace:*",
+        "@sage/x3-physical-flows-data-api": "workspace:*",
+        "@sage/x3-project-management-data-api": "workspace:*",
+        "@sage/x3-sales-data-api": "workspace:*",
+        "@sage/x3-stock-data-api": "workspace:*",
+        "@sage/x3-structure-api": "workspace:*",
+        "@sage/x3-system-api": "workspace:*",
+        "@sage/xtrem-client": "workspace:*",
+        "@sage/xtrem-x3-system-utils-api": "workspace:*"
+    }
+}
